@@ -13,7 +13,7 @@ function christmasStart(){
 function treeFadein(){
     xmasTree.style.display = 'flex';
     xmasTree.classList.add('fade-in');
-    music.src ='https://www.youtube.com/embed/GCxqUOgB45I?autoplay=1';
+    music.src ='https://www.youtube.com/embed/Ua6nFC6e2jk?autoplay=1';
     color1();
 }
 
