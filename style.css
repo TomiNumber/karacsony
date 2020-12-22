@@ -91,3 +91,24 @@ body {
         opacity: 1;
       }
 }
+
+ @media only screen and (max-width: 600px) {
+    .tree{
+        height: 250px;
+        width: auto;
+    }
+
+    .btn{
+        font-size: 15px;
+        padding: 10px 15px;
+        border: 1px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px;
+        cursor: pointer;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+    
+  } 

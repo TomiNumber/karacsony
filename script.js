@@ -1,4 +1,4 @@
-const music = document.querySelector('audio');
+const music = document.getElementById('music');
 const image = document.querySelector('img');
 const btn = document.getElementById('btn');
 const xmasTree = document.getElementById('tree-container');
@@ -13,22 +13,22 @@ function christmasStart(){
 function treeFadein(){
     xmasTree.style.display = 'flex';
     xmasTree.classList.add('fade-in');
-    music.play();
+    music.src ='https://www.youtube.com/embed/GCxqUOgB45I?autoplay=1';
     color1();
 }
 
 function color1(){
-    image.src = `img/christmas-1.svg`;
+    image.src = 'img/christmas-1.svg';
     setTimeout('color2()', 500);
 }
 
 function color2(){
-    image.src = `img/christmas-2.svg`;
+    image.src = 'img/christmas-2.svg';
     setTimeout('color3()', 500);
 }
 
 function color3(){
-    image.src = `img/christmas-3.svg`;
+    image.src = 'img/christmas-3.svg';
     setTimeout('color1()', 500);
 }
 
